@@ -1,0 +1,547 @@
+
+h1 {
+    text-align: center;
+    color: #0092d0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid grey;
+    border-color: grey;
+    background-color: #d4e7f8;
+}
+
+h3 {
+    color: #0092d0;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.welcomeBox {
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.welcomeFizzBuzzBox {
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 260px;
+    width: 380px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.welcomeFlagBox {
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 260px;
+    width: 380px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.quizBox {
+    position: relative;
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 220px;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.flagOptionBox {
+    position: relative;
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    margin-left: 30px;
+    top: -603px;
+    height: 470px;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.flagLine {
+    border: 2px solid #0092d0;
+    background-color: none;
+    text-align: left;
+    color: #0092d0;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    border-left: none;
+    border-right: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    z-index: +1;
+}
+
+.flagBox {
+    position: relative;
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    margin-left: 550px;
+    padding-left: 4em;
+    margin-top: 33px;
+    height: 600px;
+    width: 850px;
+    border-radius: 20px;
+}
+
+.testEndBox {
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 120px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.testResultBox {
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 180px;
+    width: 340px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.continueBox {
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    margin-left: auto;
+    margin-top: -50px;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.correctBox {
+    border: 1px solid grey;
+    background-color: #98fb98;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.answerBox {
+    border: 1px solid grey;
+    background-color: #ffc04d;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -50px;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.errorBox {
+    border: 1px solid grey;
+    background-color: #ec6262;
+    margin-top: 30px;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.fizzBuzzBox {
+    position: relative;
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 280px;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.fbContinueBox {
+    border: 1px solid grey;
+    background-color: #d4e7f8;
+    margin-left: auto;
+    margin-top: -50px;
+    margin-bottom: auto;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.fbCorrectBox {
+    border: 1px solid grey;
+    background-color: #98fb98;
+    margin-right: auto;
+    margin-top: 8.5%;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.fbAnswerBox {
+    border: 1px solid grey;
+    background-color: #ffc04d;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -50px;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.fbErrorBox {
+    border: 1px solid grey;
+    background-color: #ec6262;
+    margin-top: 8.5%;
+    height: 50px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.questionLine {
+    border: 2px solid #0092d0;
+    background-color: none;
+    text-align: left;
+    color: #0092d0;
+    margin-bottom: 18px;
+    border-left: none;
+    border-right: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    z-index: +1;
+}
+
+.testEndBox:hover,
+.welcomeBox:hover,
+.questionLine:hover,
+.continueBox:hover,
+.fbContinueBox:hover,
+.welcomeFizzBuzzBox:hover,
+.welcomeFlagBox:hover,
+.hide:hover {
+    cursor: pointer;
+    background-color: #80bfff;
+}
+
+.paragraph {
+    text-align: center;
+    color: #0092d0;
+}
+
+.marked {
+    background-color: #e9f3fb;
+    z-index: +2;
+}
+
+.boldParagraph {
+    text-align: center;
+    color: #0092d0;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.headlineParagraph {
+    text-align: center;
+    color: #0092d0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.errorParagraph {
+    text-align: center;
+    color: #036;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.flag {
+    position: relative;
+    width: 225px;
+    height: 150px;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.hide {
+    position: relative;
+    width: 225px;
+    height: 132px;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.hidePar {
+    background-color: #e9f3fb;
+}
+
+.irland {
+    background-color: #fff;
+    width: 225px;
+    height: 100px;
+}
+
+.irlandH {
+    background-color: #e9f3fb;
+}
+
+.irland .par1 {
+    width: 75px;
+    height: 100px;
+    background-color: #169b62;
+}
+
+.irland .par2 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 75px;
+    height: 100px;
+    background-color: #ff883e;
+}
+
+.nigeria {
+    background-color: #fff;
+    width: 225px;
+    height: 100px;
+}
+
+.nigeriaH {
+    background-color: #e9f3fb;
+}
+
+.nigeria .par1 {
+    width: 75px;
+    height: 100px;
+    background-color: #008753;
+}
+
+.nigeria .par2 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 75px;
+    height: 100px;
+    background-color: #008753;
+}
+
+.indonesien {
+    background-color: #fff;
+    width: 225px;
+    height: 132px;
+    position: relative;
+}
+
+.indonesienH {
+    background-color: #e9f3fb;
+}
+
+.indonesien .par1 {
+    width: 225px;
+    height: 66px;
+    background-color: #ff0001;
+}
+
+.indonesien .par2 {
+    width: 225px;
+    height: 66px;
+    background-color: #fff;
+}
+
+.polen {
+    background-color: #fff;
+    width: 225px;
+    height: 132px;
+    position: relative;
+}
+
+.polenH {
+    background-color: #e9f3fb;
+}
+
+.polen .par1 {
+    width: 225px;
+    height: 66px;
+    background-color: #fff;
+}
+
+.polen .par2 {
+    width: 225px;
+    height: 66px;
+    background-color: #dc143c;
+}
+
+.frankrike {
+    background-color: #fff;
+    width: 225px;
+    height: 132px;
+    position: relative;
+}
+
+.frankrikeH {
+    background-color: #e9f3fb;
+}
+
+.frankrike .par1 {
+    width: 75px;
+    height: 132px;
+    background-color: #0055a4;
+    position: absolute;
+}
+
+.frankrike .par2 {
+    position: absolute;
+    left: 150px;
+    width: 75px;
+    height: 132px;
+    background-color: #ef4135;
+}
+
+.italien {
+    background-color: #fff;
+    width: 225px;
+    height: 132px;
+    position: relative;
+}
+
+.italienH {
+    background-color: #e9f3fb;
+}
+
+.italien .par1 {
+    width: 75px;
+    height: 132px;
+    background-color: #009246;
+    position: absolute;
+}
+
+.italien .par2 {
+    position: absolute;
+    left: 150px;
+    width: 75px;
+    height: 132px;
+    background-color: #ce2b37;
+}
+
+.sverige {
+    background-color: #006aa7;
+    width: 225px;
+    height: 125px;
+    position: relative;
+}
+
+.sverigeH {
+    background-color: #e9f3fb;
+}
+
+.sverige .par1 {
+    position: absolute;
+    top: 50px;
+    width: 225px;
+    height: 25px;
+    background-color: #fecc00;
+}
+
+.sverige .par2 {
+    position: absolute;
+    left: 68px;
+    width: 25px;
+    height: 125px;
+    background-color: #fecc00;
+}
+
+.england {
+    background-color: #fff;
+    width: 225px;
+    height: 125px;
+    position: relative;
+}
+
+.englandH {
+    background-color: #e9f3fb;
+}
+
+.england .par1 {
+    position: absolute;
+    top: 50px;
+    width: 225px;
+    height: 25px;
+    background-color: #cf081f;
+}
+
+.england .par2 {
+    position: absolute;
+    left: 96.5px;
+    width: 25px;
+    height: 125px;
+    background-color: #cf081f;
+}
+
+.skåne {
+    position: relative;
+    background-color: #e23d28;
+    width: 225px;
+    height: 125px;
+}
+
+.skåneH {
+    background-color: #e9f3fb;
+}
+
+.skåne .par1 {
+    position: absolute;
+    background-color: #fecc00;
+    top: 50px;
+    width: 225px;
+    height: 25px;
+}
+
+.skåne .par2 {
+    position: absolute;
+    background-color: #fecc00;
+    left: 68px;
+    width: 25px;
+    height: 125px;
+}
